@@ -1,0 +1,39 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.cache/
+
+# === Virtualenv ===
+.venv/
+env/
+venv/
+ENV/
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints/
+
+# === IDE configs ===
+.idea/
+.vscode/
+
+# === Docker ===
+*.log
+*.pid
+*.seed
+*.bak
+*.tmp
+
+# === Env / Secrets ===
+.env
+.env.*
+*.env
+secrets.json
+config.ini
